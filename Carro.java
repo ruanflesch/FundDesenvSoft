@@ -3,6 +3,7 @@ public class Carro implements Veiculo{
     private String cor;
     private String marca;
     private String valor;
+    private double cilindradas;
     
 
     @Override
@@ -39,5 +40,14 @@ public class Carro implements Veiculo{
     public void setValor(){
         this.valor = valor;
     };
+
+    public double getCilindradas(){
+        return cilindradas;
+    }
+
+    public void setCilindradas(double cilindradas){
+        this.cilindradas = cilindradas;
+    }
+
 
 }
