@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Catalogo{
@@ -10,4 +11,6 @@ public class Catalogo{
     public List<Veiculo> getVeiculos(){
         return veiculos;
     }
+
+    
 }

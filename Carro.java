@@ -2,10 +2,17 @@ public class Carro implements Veiculo{
     private int codigo;
     private String cor;
     private String marca;
-    private String valor;
+    private double valor;
     private double cilindradas;
-    
 
+    public Carro(int codigo, String cor, String marca, double valor, double cilindradas) {
+        this.codigo = codigo;
+        this.cor = cor;
+        this.marca = marca;
+        this.valor = valor;
+        this.cilindradas = cilindradas;
+    }
+    
     @Override
     public int getCodigo(){
         return codigo;
@@ -48,6 +55,5 @@ public class Carro implements Veiculo{
     public void setCilindradas(double cilindradas){
         this.cilindradas = cilindradas;
     }
-
 
 }
